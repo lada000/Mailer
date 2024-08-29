@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .welcome-email {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        padding: 20px;
+        color: #333;
+      }
+      .welcome-email h1 {
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="welcome-email">
+      <h1>А вот и я, <%= @user.name %>!</h1>
+    </div>
+  </body>
+</html>
